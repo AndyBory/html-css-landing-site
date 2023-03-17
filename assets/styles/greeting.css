@@ -7,7 +7,12 @@
   width: 70%;
   height: 100%;
   margin: 0 auto;
+}
 
+.labels-img-wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .greeting-article{

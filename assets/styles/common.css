@@ -22,10 +22,50 @@
   line-height: 1.2;
 }
 
+.skills-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.0;
+}
+
 .text {
   color: var(--text-color);
   font-size: 1rem;
   line-height: 1.65;
+}
+
+.text-description {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.65;
+  width: 515px;
+  margin: auto;
+}
+
+.skills-text {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 4;
+}
+
+.skills-span::before,
+.skills-span::after {
+	content: "";
+	position: absolute;
+	border: 4px solid;
+	bottom: -200%;
+}
+
+.skills-span::before {
+  left: 0;
+  right: -320px;
+  color: var(--progress-bg-color);
+}
+
+.skills-span::after {
+  left: 0;
+  right: -222px;
+  color: var(--accent-color);
 }
 
 .btn {
@@ -41,6 +81,19 @@
 .img {
   display: block;
   width: 100%;
+}
+
+.my-skills-img {
+  display: block;
+  width: 555px;
+  height: 450px;
+}
+
+.microsoft-img {
+  display: block;
+  width: 255px;
+  height: 120px;
+  margin: 0 auto;
 }
 
 .justify-center {
